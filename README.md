@@ -17,7 +17,7 @@ This repository contains the Zig bindings for the MuJoCo C API.
 
 Zig version 0.15.x
 
-MuJoCo version 3.3.7
+MuJoCo version 3.3.8
 
 **MuJoCo** stands for **Mu**lti-**Jo**int dynamics with **Co**ntact. It is a
 general purpose physics engine that aims to facilitate research and development
