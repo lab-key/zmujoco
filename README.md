@@ -52,7 +52,9 @@ zig build
 
 ## TODO
 
-Examples & tests a nice clean way to integrate or point to third party modelfiles. 
+1. Examples & Tests 
+
+2. A nice clean way to integrate or point to third party modelfiles. 
 
 ## Documentation
 

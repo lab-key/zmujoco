@@ -39,7 +39,7 @@ pub fn build(b: *std.Build) !void {
     // Export the zmujoco module so other packages can import it
     b.modules.put("zmujoco", zmujoco_module) catch @panic("failed to register zmujoco module");
 
-    // Iterate through examples directory
+    // Iterate through examples directory for easier testing
     const examples_dir_path = "examples";
     var examples_dir = std.fs.cwd().openDir(examples_dir_path, .{ .iterate = true }) catch |err| {
         if (err == error.FileNotFound) return;
