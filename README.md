@@ -46,8 +46,10 @@ You should be able to just:
 
 ```
 git clone https://github.com/lab-key/zmujoco.git
-
+# Everything in the examples directory gets built automatically
 zig build
+# So you can just
+./zig-out/bin/control_model # Or load_model - until I integrate everything properly...
 ```
 
 ## TODO
