@@ -56,6 +56,8 @@ zig build
 
 2. A nice clean way to integrate or point to third party modelfiles. 
 
+3. All the demos and most things I am internally working on are done very ' dirty ' with direct C interop need to either properly wrap it or reprogram it..
+
 ## Documentation
 
 All the documenatation is in the docs/ directory.
