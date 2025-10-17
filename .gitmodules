@@ -1,0 +1,4 @@
+[submodule "libs/upstream/mujoco"]
+	path = libs/upstream/mujoco
+	url = https://github.com/lab-key/mujoco/
+	branch = dev

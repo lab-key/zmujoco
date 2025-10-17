@@ -50,6 +50,10 @@ git clone https://github.com/lab-key/zmujoco.git
 zig build
 ```
 
+## TODO
+
+Examples & tests a nice clean way to integrate or point to third party modelfiles. 
+
 ## Documentation
 
 All the documenatation is in the docs/ directory.
@@ -93,7 +97,7 @@ copy of the License at https://www.apache.org/licenses/LICENSE-2.0.
 
 This is not an officially supported Google product.
 
-[phyzx]:
+[phyzx]: https://github.com/lab-key/phyzx
 [build from source]: https://mujoco.readthedocs.io/en/latest/programming#building-mujoco-from-source
 [Getting Started]: https://mujoco.readthedocs.io/en/latest/programming#getting-started
 [Unity]: https://unity.com/

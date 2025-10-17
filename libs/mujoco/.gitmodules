@@ -1,0 +1,24 @@
+[submodule "third_party/upstream/ccd"]
+	path = third_party/upstream/ccd
+	url = https://github.com/danfis/libccd.git
+[submodule "third_party/upstream/qhull"]
+	path = third_party/upstream/qhull
+	url = https://github.com/qhull/qhull.git
+[submodule "third_party/upstream/lodepng"]
+	path = third_party/upstream/lodepng
+	url = https://github.com/lvandeve/lodepng.git
+[submodule "third_party/upstream/tinyxml2"]
+	path = third_party/upstream/tinyxml2
+	url = https://github.com/leethomason/tinyxml2.git
+[submodule "third_party/upstream/tinyobjloader"]
+	path = third_party/upstream/tinyobjloader
+	url = https://github.com/tinyobjloader/tinyobjloader.git
+[submodule "third_party/upstream/TriangleMeshDistance"]
+	path = third_party/upstream/TriangleMeshDistance
+	url = https://github.com/InteractiveComputerGraphics/TriangleMeshDistance.git
+[submodule "third_party/upstream/marchingcubecpp"]
+	path = third_party/upstream/marchingcubecpp
+	url = https://github.com/aparis69/MarchingCubeCpp.git
+[submodule "third_party/upstream/zglfw"]
+	path = third_party/upstream/zglfw
+	url = https://github.com/zig-gamedev/zglfw.git
