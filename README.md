@@ -29,16 +29,12 @@ interacting with their environment.
 
 This repository contains a thin wrapper for MuJoCo allowing for easier integration into other projects and direct programmatic usage of the C API.
 
-It uses my fork of MuJoCo if you want to use your own fork of MuJoCo checkout the upstream project and instructions there, it's pretty simple!
-
 MuJoCo has a C API and is intended for researchers and developers. The runtime
 simulation module is tuned to maximize performance and operates on low-level
 data structures that are preallocated by the built-in XML compiler. 
 
 MuJoCo further exposes a large number of utility functions for computing
 physics-related quantities.
-
-
 
 ## Getting Started
 
@@ -51,6 +47,9 @@ zig build
 # So you can just
 ./zig-out/bin/control_model # Or load_model - until I integrate everything properly...
 ```
+
+This repository is already setup so you don't really need the `setup.zig` & `cleanup.zig` it uses my [mujoco] `dev` branch as a git submodule to allow for updates.
+In case you want to setup your own `zmujoco` basically you need to convert the `CMakeLists.txt` from [mujoco] into a `build.zig` and then configure everything into a Zig module. You can check the `setup.zig` there for some ideas as well.
 
 ## TODO
 
@@ -103,6 +102,7 @@ copy of the License at https://www.apache.org/licenses/LICENSE-2.0.
 
 This is not an officially supported Google product.
 
+[mujoco]: https://github.com/lab-key/mujoco
 [phyzx]: https://github.com/lab-key/phyzx
 [build from source]: https://mujoco.readthedocs.io/en/latest/programming#building-mujoco-from-source
 [Getting Started]: https://mujoco.readthedocs.io/en/latest/programming#getting-started
