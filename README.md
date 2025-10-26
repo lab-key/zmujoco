@@ -25,6 +25,18 @@ in robotics, biomechanics, graphics and animation, machine learning, and other
 areas which demand fast and accurate simulation of articulated structures
 interacting with their environment.
 
+
+
+https://github.com/user-attachments/assets/995fb256-6474-4927-a30c-a30a0602bb2f
+
+Robotic Dog
+
+
+
+https://github.com/user-attachments/assets/aac1e3ff-62da-447c-983c-6e3ec61d6b01
+
+2D Self-Learning Agent. Works in 3D enviroments. Using a framework I am working on & integrating here as well. Coming soon.
+
 ***For more higher level and a ( *little bit of a* ) Desktop app making framework checkout [phyzx] ( Still early stages )***
 
 This repository contains a thin wrapper for MuJoCo allowing for easier integration into other projects and direct programmatic usage of the C API.
