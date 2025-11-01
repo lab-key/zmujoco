@@ -14,16 +14,4 @@
         "libs",
         "src",
     },
-//    .dependencies = .{
-//    .mujoco = .{
-//            .path = "libs/mujoco",
-//        },
-//    },
-//    .paths = .{
-//        "build.zig",
-//        "build.zig.zon",
-//        "libs",
-//        "src",
-//    },
-//
 }
